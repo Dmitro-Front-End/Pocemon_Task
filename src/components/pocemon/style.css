@@ -1,0 +1,47 @@
+.pokemon-g {
+    height: 100px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.pokemon-c {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100% - 10px);
+
+    gap: 10px;
+    padding: 5px;
+}
+.pokemon-c-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.pokemon-c-left h1{
+    cursor: pointer;
+}
+
+.pokemon-c-right {
+    display: flex;
+    gap: 8px;
+}
+
+.pokemon-c-left-ability {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.pokemon-image {
+    height: 100%;
+}
+
+.pokemon-loading-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
